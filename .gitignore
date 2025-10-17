@@ -1,0 +1,47 @@
+# ========================
+# GENERAL PYTHON SETTINGS
+# ========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.log
+.env
+venv/
+.env/
+.venv/
+.Python
+
+# ========================
+# IDEs / EDITORS
+# ========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ========================
+# STREAMLIT SETTINGS
+# ========================
+# ⚠️ Do NOT push local Streamlit secrets
+streamlit_app/.streamlit/secrets.toml
+
+# ========================
+# BUILD / DEPLOY ARTIFACTS
+# ========================
+dist/
+build/
+.cache/
+*.bak
+*.old
+*.tmp
+
+# ========================
+# OS FILES
+# ========================
+ehthumbs.db
+Icon?
+Desktop.ini
